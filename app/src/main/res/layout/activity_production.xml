@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".production">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/teal_700"
+        android:text="Production"
+        android:textSize="30dp"
+        android:textAlignment="center">
+    </TextView>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="600dp"
+        android:layout_marginLeft="30dp"
+        android:text="Note: if you click next, you can see details of employees."
+        >
+
+    </TextView>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="60dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginLeft="10dp"
+        android:textSize="25dp"
+        android:text="Production is the process of combining various inputs, both material (such as metal, wood, glass, or plastics) and immaterial (such as plans, or knowledge) in order to create output. Ideally this output will be a good or service which has value and contributes to the utility of individuals.">
+
+    </TextView>
+    <Button
+        android:id="@+id/back"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="650dp"
+        android:layout_marginLeft="50dp"
+        android:textColor="#F60505"
+        android:background="#00FF6F00"
+        android:text="BACK"/>
+    <Button
+        android:id="@+id/next"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="650dp"
+        android:textColor="#26852D"
+        android:background="#00FF6F00"
+        android:layout_marginLeft="250dp"
+        android:text="NEXT"/>
+
+</RelativeLayout>
